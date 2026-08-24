@@ -1,0 +1,13 @@
+{
+  "name": "retell-airtable-bridge",
+  "version": "1.0.0",
+  "description": "Receives Retell AI webhooks and writes call/booking data straight into Airtable",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
